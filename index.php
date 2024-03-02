@@ -415,7 +415,7 @@
         <img src="img/01.jpg" class="" alt="">
         <div class="middle">
           <div class="text">
-        <h5 class="py-2">Tanvir Raihan</h5>
+        <h5 class="py-2">Arif Raihan</h5>
         <p class="p-4">Web Designer</p>
       </div>
         </div>
