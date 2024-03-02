@@ -1,0 +1,22 @@
+
+@media (max-width: 1600px) {
+    input[type="text"] {
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    ul#menu-main-menu {
+        display: block;
+    }
+    li#menu-item {
+        padding-left: 0px !important;
+    }
+   
+}
+@media (max-width: 767px) {
+    .bgimgone{
+        background-image: url('../img/ppp.png');
+        background-size: cover;
+        opacity: .5;
+    }
+}
