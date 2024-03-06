@@ -3,11 +3,11 @@
 	--primary-color: #FF5E14;
 	--white-color: #fff;
 	--black-color: #8188ad;
-	--area-bg: #e9ebf2;
+	--area-bg: #F8F9FA;
 	--green-color: #48b96f;
-
 	--primary-font: 'Epilogue';
 }
+
 body{
 	margin: 0;
 	padding: 0;
@@ -128,19 +128,15 @@ input:focus{
 } */
 .sec-title{
 	text-align: center;
-	margin-bottom: 25px;
+	padding-top: 80px;
+	color: #000 !important;
+}
+.sec-title2{
+	text-align: center;
+	color: #000 !important;
 }
 .area-bg{
 	background: var(--area-bg);
-}
-.primary-bg{
-	background: var(--primary-color);
-}
-.p-80{
-	padding: 100px 0;
-}
-.p-60{
-	padding: 60px 0;
 }
 .pt-80{
     padding-top: 80px;
@@ -148,16 +144,38 @@ input:focus{
 .container{
 	transition: .5s;
 }
-.bb{
-  border-bottom: 2px solid red;
-  width: 50px;
+.bb {
+    border-bottom: 2px solid #ff5e14;
+    width: 60px;
+    padding: 10px 0px;
+    position: absolute;
 }
 .pb-80{
     padding-bottom: 80px;
 }
-
-
-
+.text-primary{
+		color: #ff5e14 !important;
+}
+.text-secondary{
+		color: #7e7e7e !important;
+}
+.bg-primary{
+	background-color: #ff5e14 !important;
+}
+a.nav-link:hover {
+	color: #FF5E14 !important;
+}
+.sec-title h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: #ff5e14;
+    bottom: -25px;
+    right: 0;
+    margin: auto;
+}
 
 /* Slider Options */
 .carousel-caption {
@@ -171,10 +189,15 @@ input:focus{
 }
 .carousel-item img{
     height: 850px !important;
-    opacity: .5;
-    color: black;
 }
-
+.slider-bg::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+}
 
 /*Project*/
 .overly {
@@ -223,6 +246,19 @@ input:focus{
   text-align: center;
 }
 
+/*Start Counter */
+
+
+/* End Counter */
+.counter {
+    background-image: url('img/bg1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+	/* background-color: #000; */
+	background-image: linear-gradient(gray, rgb(15, 14, 14));
+	opacity: 1;
+}
 /* Our Team */
 
 .arif{
@@ -259,3 +295,8 @@ input:focus{
 	transition: .3s ease;
 	border: 1px solid red;
   }
+
+  /* Vedio Start */
+  section.vedio {
+    background-repeat: no-repeat;
+}
