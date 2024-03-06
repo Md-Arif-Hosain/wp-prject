@@ -141,6 +141,15 @@ input:focus{
 .pt-80{
     padding-top: 80px;
 }
+.pb-80{
+    padding-bottom: 80px;
+}
+.pt-60{
+    padding-top: 80px;
+}
+.pb-60{
+    padding-bottom: 80px;
+}
 .container{
 	transition: .5s;
 }
@@ -149,9 +158,6 @@ input:focus{
     width: 60px;
     padding: 10px 0px;
     position: absolute;
-}
-.pb-80{
-    padding-bottom: 80px;
 }
 .text-primary{
 		color: #ff5e14 !important;

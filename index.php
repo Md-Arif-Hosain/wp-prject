@@ -157,10 +157,10 @@
         </p>
       </div>
 
-      <div class="col-md-3 col-sm-6 col-12 text-center">
+      <div class="col-md-3 col-sm-6 col-12 text-center pb-60 pt-60">
          <img src="img/about1.jpg" class="py-5" alt="">
       </div>
-      <div class="col-md-3 col-sm-6 col-12 text-center">
+      <div class="col-md-3 col-sm-6 col-12 text-center pb-60 pt-60">
          <img src="img/about2.jpg" class="py-5" alt="">
       </div>
     </div>
