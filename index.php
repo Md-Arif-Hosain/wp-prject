@@ -528,6 +528,66 @@
   </div>
 </section>
 
+<div class="d-flex gap-2 text-light pt-2">
+                   
+                    <p><i class="bi bi-envelope-heart text-danger"></i> info@example.com</p>
+                    <p><i class="bi bi-telephone-fill text-danger"></i> 314-326-2990</p>
+                  </div> 
+
+<!-- Start Footer -->
+<section class="bg-dark" style="background-image: url('img/footer_map.png'); background-repeat: no-repeat; background-size: cover;">
+  <div class="container">
+    <div class="row pt-80 pb-80">
+      <div class="col-md-4 col-sm-12">
+        <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
+        <div class="had">
+          <h3>Find Us</h3>
+          <p> 1375 Ash Avenue</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
+        <div class="had">
+          <h3>Find Us</h3>
+          <p> 1375 Ash Avenue</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+        <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
+        <div class="had">
+          <h3>Find Us</h3>
+          <p> 1375 Ash Avenue</p>
+        </div>
+      </div>
+
+     <span class="pb-60"> <hr></span>
+
+     <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <img src="img/logo.png" class="bg-light"alt="" srcset="">
+        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+         <h3>Follow Us</h3>
+      </div>
+
+      <div class="col-md-4 col-sm-4 col-12">
+        <img src="img/logo.png" class="bg-light"alt="" srcset="">
+        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+         <h3>Follow Us</h3>
+      </div>
+
+      <div class="col-md-4 col-sm-3 col-12">
+        <img src="img/logo.png" class="bg-light"alt="" srcset="">
+        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+         <h3>Follow Us</h3>
+      </div>
+
+     </div>
+
+    </div>
+  </div>
+</section>
 <!-- Bootstarp Jave script link -->
 <script src="js/bootstrap.bundle.min.js"></script>
   <!-- JS link -->

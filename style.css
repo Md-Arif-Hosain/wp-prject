@@ -306,3 +306,14 @@ a.nav-link:hover {
   section.vedio {
     background-repeat: no-repeat;
 }
+/* Footer Page */
+.had {
+    padding-left: 48px;
+    margin-top: -47px;
+}
+/* .footer{
+
+		background-image: url('img/footer_map.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+} */
