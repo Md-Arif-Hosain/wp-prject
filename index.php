@@ -528,12 +528,6 @@
   </div>
 </section>
 
-<div class="d-flex gap-2 text-light pt-2">
-                   
-                    <p><i class="bi bi-envelope-heart text-danger"></i> info@example.com</p>
-                    <p><i class="bi bi-telephone-fill text-danger"></i> 314-326-2990</p>
-                  </div> 
-
 <!-- Start Footer -->
 <section class="bg-dark" style="background-image: url('img/footer_map.png'); background-repeat: no-repeat; background-size: cover;">
   <div class="container">
@@ -541,46 +535,56 @@
       <div class="col-md-4 col-sm-12">
         <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
         <div class="had">
-          <h3>Find Us</h3>
+          <h3 class="text-light">Find Us</h3>
           <p> 1375 Ash Avenue</p>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-12">
-        <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
+      <p><i class="bi bi-telephone-fill text-danger fs-2"></i> 
         <div class="had">
-          <h3>Find Us</h3>
-          <p> 1375 Ash Avenue</p>
+          <h3 class="text-light">Call us</h3>
+          <p> 989-554-6987</p>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-12">
-        <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
+      <i class="bi bi-envelope-heart text-danger fs-2"></i> 
         <div class="had">
-          <h3>Find Us</h3>
-          <p> 1375 Ash Avenue</p>
+          <h3 class="text-light">Mail us</h3>
+          <p> mail@example.com</p>
         </div>
       </div>
 
-     <span class="pb-60"> <hr></span>
+     <span class="pb-60 pt-60"> <hr></span>
 
      <div class="row">
       <div class="col-md-4 col-sm-6">
-        <img src="img/logo.png" class="bg-light"alt="" srcset="">
+        <h3 class="text-light fw-bold fs-3 pb-3">TRADE<span class="text-primary fs-1"> .</sapn></h3>
         <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
-         <h3>Follow Us</h3>
+         <h3 class="pt-3 pb-3 text-light">Follow Us</h3>
+         <a href="https://www.facebook.com/" class="pt-2 text-danger pe-2"><i class="bi bi-facebook fs-2"></i></a><a href="http://"  class="pt-2 text-light text-primary pe-2"><i class="bi bi-twitter fs-2"></i></a><a href="http://"  class="pt-2 text-info"><i class="bi bi-linkedin fs-2"></i></a></p>
       </div>
 
       <div class="col-md-4 col-sm-4 col-12">
-        <img src="img/logo.png" class="bg-light"alt="" srcset="">
-        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
-         <h3>Follow Us</h3>
+        <h3 class="text-light fw-bold fs-3">Useful Links</h3>
+        <div class="">
+              <span class="bb"></span>
+          </div>
+         <p class="pt-5"><a href="">Home</a></p>
+         <p class="pt-2"><a href="">Services</a></p>
+         <p class="pt-2"><a href="">Blog</a></p>
+         <p class="pt-2"><a href="">Contact</a></p>
+         <p class="pt-2"><a href="">Portfoilio</a></p>
       </div>
 
-      <div class="col-md-4 col-sm-3 col-12">
-        <img src="img/logo.png" class="bg-light"alt="" srcset="">
-        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
-         <h3>Follow Us</h3>
+      <div class="col-md-4 col-sm-4 col-12">
+        <h3 class="text-light fw-bold fs-3">Subscribe</h3>
+        <div class="">
+              <span class="bb"></span>
+          </div>
+         <p class="pt-5">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+         
       </div>
 
      </div>
