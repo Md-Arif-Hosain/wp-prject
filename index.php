@@ -1,96 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRADE.</title>
-    <!-- Font Awsome CDn -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <!-- <link rel="stylesheet" href="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA=="> -->
-  
-  <!-- Link Bootstarp Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Link Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Link Responsive Css -->
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-<section class="bg-dark">
-    <div class="top-header">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                  <div class="d-flex gap-2 text-light pt-2">
-                    <p><i class="bi bi-geo-alt-fill text-danger"></i> 1375 Ash Avenue</p>
-                    <p><i class="bi bi-envelope-heart text-danger"></i> info@example.com</p>
-                    <p><i class="bi bi-telephone-fill text-danger"></i> 314-326-2990</p>
-                  </div> 
+<!-- Header Link -->
+<?php 
+include_once 'header.php';
+?>
 
-                  <div class="d-flex gap-2 text-light">
-                      <p class="pt-2">Follow Us:</p>
-                      <a href="https://www.facebook.com/" class="pt-2 text-light"><i class="bi bi-facebook"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-twitter"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-linkedin"></i></a></p>
-                      <button class="btn btn-primary ps-3">Get A Quat</button>
-                  </div>   
-                  
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Top bar -->
-
-<!-- Start Header -->
-<section class="p-2">
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
-      <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" srcset=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-        <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-
-        <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
-        </li>
-        <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Blog</a>
-        </li>
-        
-        <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Services</a>
-        </li>
-
-        <li class="nav-item dropdown fw-bold">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Pages
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Portfolio</a></li>
-            <li><a class="dropdown-item" href="#">404</a></li>
-            <li><a class="dropdown-item" href="#">Contact</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
-        </li>
-
-      </ul>
-      <form class="d-flex">
-        <button class="border-0 bg-light" type="submit"><i class="bi bi-search"></i></button>
-      </form>
-    </div>
-  </div>
-</nav>
-</div>
-</section>
-
-<!-- Start Slider -->
+<!-- Start Banner Slider -->
 <section>
   <div class="">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -142,8 +55,9 @@
 </div>
   </div>
 </section>
+<!-- End Banner SLider -->
 
-<!-- About Section -->
+<!--Start About Section -->
 <section>
   <div class="container">
     <div class="row">
@@ -166,7 +80,9 @@
     </div>
   </div>
 </section>
+<!-- End About -->
 
+<!-- Start Our Services -->
 <section class="area-bg">
   <div class="container">
     <div class="row pb-80">
@@ -235,6 +151,7 @@
     </div>
   </div>
 </section>
+<!-- End Our Services -->
 
 <!--Start Counter -->
 <section class="counter">
@@ -360,7 +277,7 @@
 <!-- End Project -->
 
 <!-- Slider Testmonial -->
-<section>
+<section class="pt-80 pb-80">
  <div class="container">
  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -370,13 +287,31 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/s1.jpg" class="d-block w-100" alt="...">
+      <div class="client-text text-center">
+        <p class="ps-5 h3"><i class="bi bi-chevron-double-right fs-1 text-primary"></i> <span class="ps-3"></span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.<span class="pe-3"></span><i class="bi bi-chevron-double-left fs-1 text-primary"></i></p>
+         <img src="img/011.jpg" class="img-fluid pt-5" alt="...">
+         <h3 class="pt-5">Evana Chy</h3>
+         <p class="pt-3">Chairmen</p>
+        </div>
     </div>
     <div class="carousel-item">
-      <img src="img/s2.jpg" class="d-block w-100" alt="...">
+    <div class="client-text text-center">
+        <p class="ps-5 h3"><i class="bi bi-chevron-double-right fs-1 text-primary"></i> <span class="ps-3"></span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.<span class="pe-3"></span><i class="bi bi-chevron-double-left fs-1 text-primary"></i></p>
+         <img src="img/022.jpg" class="img-fluid rounded-circle pt-5" alt="...">
+         <h3 class="pt-5">Ollie Schneider</h3>
+         <p class="pt-3">C.E.O</p>
+        </div>
     </div>
     <div class="carousel-item">
-      <img src="img/s3.jpg" class="d-block w-100" alt="...">
+    <div class="client-text text-center">
+        <p class="ps-5 h3"><i class="bi bi-chevron-double-right fs-1 text-primary"></i> <span class="ps-3"></span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.<span class="pe-3"></span><i class="bi bi-chevron-double-left fs-1 text-primary"></i></p>
+         <img src="img/033.jpg" class="img-fluid rounded-circle pt-5" alt="...">
+         <h3 class="pt-5">Jakson Nash</h3>
+         <p class="pt-3">Chairmen</p>
+        </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -528,74 +463,82 @@
   </div>
 </section>
 
-<!-- Start Footer -->
-<section class="bg-dark" style="background-image: url('img/footer_map.png'); background-repeat: no-repeat; background-size: cover;">
-  <div class="container">
-    <div class="row pt-80 pb-80">
-      <div class="col-md-4 col-sm-12">
-        <i class="bi bi-geo-alt-fill text-danger fs-2"></i>  
-        <div class="had">
-          <h3 class="text-light">Find Us</h3>
-          <p> 1375 Ash Avenue</p>
+<!-- Start Logo SLider Section -->
+<section class="pt-80 pb-80">
+<div id="myCarousel1" class="carousel slide container" data-bs-ride="carousel">
+    <div class="carousel-inner w-100">
+        <div class="carousel-item ww active">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-1.png">
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="col-md-4 col-sm-12">
-      <p><i class="bi bi-telephone-fill text-danger fs-2"></i> 
-        <div class="had">
-          <h3 class="text-light">Call us</h3>
-          <p> 989-554-6987</p>
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-3.png">
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="col-md-4 col-sm-12">
-      <i class="bi bi-envelope-heart text-danger fs-2"></i> 
-        <div class="had">
-          <h3 class="text-light">Mail us</h3>
-          <p> mail@example.com</p>
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-5.png">
+                </div>
+            </div>
         </div>
-      </div>
-
-     <span class="pb-60 pt-60"> <hr></span>
-
-     <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <h3 class="text-light fw-bold fs-3 pb-3">TRADE<span class="text-primary fs-1"> .</sapn></h3>
-        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
-         <h3 class="pt-3 pb-3 text-light">Follow Us</h3>
-         <a href="https://www.facebook.com/" class="pt-2 text-danger pe-2"><i class="bi bi-facebook fs-2"></i></a><a href="http://"  class="pt-2 text-light text-primary pe-2"><i class="bi bi-twitter fs-2"></i></a><a href="http://"  class="pt-2 text-info"><i class="bi bi-linkedin fs-2"></i></a></p>
-      </div>
-
-      <div class="col-md-4 col-sm-4 col-12">
-        <h3 class="text-light fw-bold fs-3">Useful Links</h3>
-        <div class="">
-              <span class="bb"></span>
-          </div>
-         <p class="pt-5"><a href="">Home</a></p>
-         <p class="pt-2"><a href="">Services</a></p>
-         <p class="pt-2"><a href="">Blog</a></p>
-         <p class="pt-2"><a href="">Contact</a></p>
-         <p class="pt-2"><a href="">Portfoilio</a></p>
-      </div>
-
-      <div class="col-md-4 col-sm-4 col-12">
-        <h3 class="text-light fw-bold fs-3">Subscribe</h3>
-        <div class="">
-              <span class="bb"></span>
-          </div>
-         <p class="pt-5">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
-         
-      </div>
-
-     </div>
-
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-2.png">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-3.png">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-4.png">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-5.png">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item ww">
+            <div class="col-md-2">
+                <div class="card card-body">
+                    <img class="img-fluid" src="img/client-6.png">
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
 </section>
-<!-- Bootstarp Jave script link -->
-<script src="js/bootstrap.bundle.min.js"></script>
-  <!-- JS link -->
-  <script src="js/script.js"></script>
-  <!-- Footer Link End -->
-</body>
-</html>
+<!-- End Logo Slider -->
+
+<!-- Footer Link -->
+<?php 
+include_once 'footer.php';
+
+?>
