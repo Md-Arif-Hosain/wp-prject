@@ -24,9 +24,9 @@
         <div class="container">
             <div class="d-flex justify-content-between flex-md-row flex-column">
                   <div class="d-flex gap-2 text-light pt-2 flex-wrap">
-                    <p class="text-light"><i class="bi bi-geo-alt-fill text-danger"></i> 1375 Ash Avenue</p>
-                    <p class="text-light"><i class="bi bi-envelope-at-fill text-danger"></i> info@example.com</p>
-                    <p class="text-light"><i class="bi bi-telephone-fill text-danger"></i> 314-326-2990</p>
+                    <p class="text-light"><i class="bi bi-geo-alt-fill text-primary"></i> 1375 Ash Avenue</p>
+                    <p class="text-light"><i class="bi bi-envelope-at-fill text-primary"></i> info@example.com</p>
+                    <p class="text-light"><i class="bi bi-telephone-fill text-primary"></i> 314-326-2990</p>
                   </div> 
 
                   <div class="d-flex gap-2 text-light flex-wrap">
@@ -52,7 +52,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
         <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
 
         <li class="nav-item fw-bold">

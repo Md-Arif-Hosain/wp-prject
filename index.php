@@ -5,7 +5,7 @@ include_once 'header.php';
 
 <!-- Start Banner Slider -->
 <section>
-  <div class="">
+  <div class="mainslide">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
@@ -15,7 +15,7 @@ include_once 'header.php';
   <div class="carousel-inner ">
     <div class="carousel-item active slider-bg">
       <img src="img/slider1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h1 class="text-light">Meet with us to</h1>
         <h1 class="text-light">success dream <span class="text-primary">business</span></h1>
         <p class="pt-3 pb-3 text-light">There are many variations of passages of Lorem Ipsum available but the majority have sufered alteration<br>
@@ -25,7 +25,7 @@ include_once 'header.php';
     </div>
     <div class="carousel-item slider-bg">
       <img src="img/slider2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h1 class="text-light">Meet with us to</h1>
         <h1 class="text-light">success dream <span class="text-primary">business</span></h1>
         <p class="pt-3 pb-3 text-light">There are many variations of passages of Lorem Ipsum available but the majority have sufered alteration<br>
@@ -35,7 +35,7 @@ include_once 'header.php';
     </div>
     <div class="carousel-item slider-bg">
       <img src="img/slider3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h1 class="text-light">Meet with us to</h1>
         <h1 class="text-light">success dream <span class="text-primary">business</span></h1>
         <p class="pt-3 pb-3 text-light">There are many variations of passages of Lorem Ipsum available but the majority have sufered alteration<br>
@@ -64,7 +64,7 @@ include_once 'header.php';
       <div class="col-md-6 col-sm-12">
          <h2 class="pt-80 text-dark fw-bold">About Us</h1>
            <div class="bb"></div>
-         <p class="pt-5 text-secondary">Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, 
+         <p class="pt-5 text-secondary pb-md-5">Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, 
           nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit.<br><br>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
          parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
@@ -72,10 +72,10 @@ include_once 'header.php';
       </div>
 
       <div class="col-md-3 col-sm-6 col-12 text-center pb-60 pt-60">
-         <img src="img/about1.jpg" class="py-5" alt="">
+         <img src="img/about1.jpg" class="py-sm-5" alt="">
       </div>
       <div class="col-md-3 col-sm-6 col-12 text-center pb-60 pt-60">
-         <img src="img/about2.jpg" class="py-5" alt="">
+         <img src="img/about2.jpg" class="py-sm-5" alt="">
       </div>
     </div>
   </div>
@@ -288,7 +288,7 @@ include_once 'header.php';
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="client-text text-center">
-        <p class="ps-5 h3"><i class="bi bi-chevron-double-right fs-1 text-primary"></i> <span class="ps-3"></span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        <p class="ps-sm-5 h3"><i class="bi bi-chevron-double-right fs-1 text-primary"></i> <span class="ps-3"></span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.<span class="pe-3"></span><i class="bi bi-chevron-double-left fs-1 text-primary"></i></p>
          <img src="img/011.jpg" class="img-fluid pt-5" alt="...">
          <h3 class="pt-5">Evana Chy</h3>
@@ -342,51 +342,43 @@ include_once 'header.php';
       </div>
 
     <div class="row ">
-      <div class="col-md-3 col-sm-6 col-12 text-center pt-80 p-3 overly">
+      <div class="col-md-3 col-sm-6 col-12 text-center pt-80 p-3 middle1">
        <div class="border rounded-3">
-        <img src="img/01.jpg" class="" alt="">
-        <div class="middle">
-          <div class="text">
-        <h5 class="py-2">Arif Raihan</h5>
-        <p class="p-4">Web Designer</p>
-      </div>
+        <img src="img/01.jpg" class="image1" alt="">
+          <div class="overly1">
+        <h5 class="py-1">Tanvir Raihan</h5>
+        <p class="pb-2 text-light">Web Designer</p>
         </div>
         </div>
       </div>
 
-     <div class="col-md-3 col-sm-6 col-12 p-3 overly">
+     <div class="col-md-3 col-sm-6 col-12 p-3 middle1">
        <div class="border rounded-3">
-        <img src="img/02.jpg" class="image" alt="">
-        <div class="arifa">
-          <div class="arif">
-        <h5 class="py-2">Finance Consultancy</h5>
-        <p class="p-4">supporting text</p>
-      </div>
+        <img src="img/02.jpg" class="image1" alt="">
+          <div class="overly1">
+        <h5 class="py-1">Jackson Nash</h5>
+        <p class="pb-2 text-light">Massagist</p>
         </div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 col-12 p-3 overly">
+      <div class="col-md-3 col-sm-6 col-12 p-3 middle1">
        <div class="border rounded-3">
-        <img src="img/03.jpg" class="image" alt="">
-        <div class="middle">
-          <div class="text">
-        <h5 class="py-2">Finance Consultancy</h5>
-        <p class="p-4">supporting text</p>
+        <img src="img/03.jpg" class="image1" alt="">
+          <div class="overly1">
+        <h5 class="py-1">Jon Doe</h5>
+        <p class="pb-2 text-light">Web Develpoer</p>
       </div>
-        </div>
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 col-12 p-3 overly">
+      <div class="col-md-3 col-sm-6 col-12 p-3 middle1">
        <div class="border rounded-3">
-        <img src="img/04.jpg" class="image" alt="">
-        <div class="middle">
-          <div class="text">
-        <h5 class="py-2">Finance Consultancy</h5>
-        <p class="p-4">supporting text</p>
-      </div>
-        </div>
+        <img src="img/04.jpg" class="image1" alt="">
+             <div class="overly1">
+                <h5 class="py-1">Jackson Nash</h5>
+                 <p class="pb-2 text-light">Massagist</p>
+            </div>
         </div>
       </div>
       
@@ -468,21 +460,21 @@ include_once 'header.php';
 <div id="myCarousel1" class="carousel slide container" data-bs-ride="carousel">
     <div class="carousel-inner w-100">
         <div class="carousel-item ww active">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-1.png">
                 </div>
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-3.png">
                 </div>
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-5.png">
                 </div>
@@ -496,28 +488,28 @@ include_once 'header.php';
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-3.png">
                 </div>
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-4.png">
                 </div>
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-5.png">
                 </div>
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-6.png">
                 </div>
