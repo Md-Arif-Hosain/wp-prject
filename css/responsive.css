@@ -66,7 +66,7 @@
 
  /* Our Partner */
     .carousel-inner .ww>div {
-        display: none;
+        /* display: none; */
     }
 
     .carousel-inner .ww>div:first-child {
@@ -144,11 +144,45 @@
         font-size: 25px;
     }
 }
-@media (max-width:574.98px){
+@media (max-width:575.98px){
     /* Home Our team */
     .overly1 {
         width: 94%;
     }
+    /*Home Counter */
+    .counter .col-md-3.col-sm-6.col-12 {
+        padding-bottom: 28px;
+    }
+
+  /* Home Partner Slider */
+  .had {
+    padding-bottom: 36px;
+}
+.footer .col-sm-4.col-12 {
+    padding-left: 35px;
+}
+.footer h3.text-light.fw-bold.fs-3 {
+    padding-top: 40px;
+}
+.vedio .btn {
+    font-size: 10px;
+    padding: 12px 21px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: .4s all;
+    border: none;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+}
+@media (max-width: 359.98px) {
+   /* Home Our team */
+   .overly1 {
+    width: 89%;
+}
 }
 
 @media (max-width: 319.98px) {

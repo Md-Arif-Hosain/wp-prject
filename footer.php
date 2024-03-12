@@ -1,8 +1,8 @@
 <!-- Start Footer -->
-<section class="bg-dark" style="background-image: url('img/footer_map.png'); background-repeat: no-repeat; background-size: cover;">
+<section class="bg-dark footer" style="background-image: url('img/footer_map.png'); background-repeat: no-repeat; background-size: cover;">
   <div class="container">
     <div class="row pt-80">
-      <div class="col-md-4 col-sm-12">
+      <div class="col-sm-4 col-12">
         <i class="bi bi-geo-alt-fill text-primary fs-2"></i>  
         <div class="had">
           <h3 class="text-light">Find Us</h3>
@@ -10,7 +10,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-12">
+      <div class="col-sm-4 col-12">
       <p><i class="bi bi-telephone-fill text-primary fs-2"></i> 
         <div class="had">
           <h3 class="text-light">Call us</h3>
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-12">
+      <div class="col-sm-4 col-12">
       <i class="bi bi-envelope-at-fill text-primary fs-2"></i> 
         <div class="had">
           <h3 class="text-light">Mail us</h3>
@@ -27,9 +27,9 @@
       </div>
 
      <span class="pb-60 pt-60"> <hr></span>
-
+   
      <div class="row pb-60">
-      <div class="col-md-4 col-sm-6">
+      <div class="col-sm-4 col-sm-6">
         <h3 class="text-light fw-bold fs-3 pb-3">TRADE<span class="text-primary fs-1"> .</sapn></h3>
         <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
          <h3 class="pt-3 pb-3 text-light">Follow Us</h3>
@@ -40,7 +40,7 @@
          </div>
       </div>
 
-      <div class="col-md-4 col-sm-4 col-12">
+      <div class="col-md-4 col-sm-3 col-12">
         <h3 class="text-light fw-bold fs-3">Useful Links</h3>
         <div class="">
               <span class="bb"></span>
@@ -52,7 +52,7 @@
          <p class="pt-2"><a href="" class="link">Portfoilio</a></p>
       </div>
 
-      <div class="col-md-4 col-sm-4 col-12">
+      <div class="col-md-4 col-sm-3 col-12">
         <h3 class="text-light fw-bold fs-3">Subscribe</h3>
         <div class="">
               <span class="bb"></span>
@@ -61,7 +61,7 @@
 
           <fieldset>
               <div class="mb-3 pt-5">
-                   <input type="text" id="disabledTextInput" class="form-control p-3 border-0 rounded-0 bg-dark" placeholder="Email Address *"></input>
+                   <input type="text" id="disabledTextInput" class="form-control p-3 border-0 rounded-0 bg-light" placeholder="Email Address *"></input>
                </div>
                     <button type="submit" class="btn btn-primary rounded-0 text-light p-3 ps-4 pe-sm-4"><i class="bi bi-send-fill"></i></button>
           </fieldset>  
@@ -75,10 +75,10 @@
 <section class="bg-dark p-3">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-6">
+      <div class="col-md-6 col-sm-6 col-12">
          <p class="fw-2">Copyright © 2019, All Right Reserved <a href="http://" class="pe-4 text-primary">Trade</a></p>
       </div>
-      <div class="col-md-6 col-6">
+      <div class="col-md-6 col-sm-6 col-12">
         <p class="fw-blod"><a href="" class="pe-4 link">Home</a>
          <a href="" class="pe-4 link">Terms</a>
           <a href="" class="pe-4 link">Privecy</a>

@@ -253,7 +253,7 @@ a.nav-link:hover {
     width: 100%;
     background-attachment: fixed;
 	/* background-color: #000; */
-	background-image: linear-gradient(gray, rgb(15, 14, 14));
+	/* background-image: linear-gradient(gray, rgb(15, 14, 14)); */
 	opacity: 1;
 }
 /* Our Team */
@@ -304,7 +304,7 @@ a.nav-link:hover {
 /* Partner Slider Part */
 .ww img {
     height: 150px !important;
-	width: 50%;
+	/* width: 50%; */
 }
 .card{
 	border: none;

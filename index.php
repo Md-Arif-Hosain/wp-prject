@@ -60,7 +60,8 @@ include_once 'header.php';
 <!--Start About Section -->
 <section>
   <div class="container">
-    <div class="row">
+  <div class="d-flex flex-wrap justify-content-center">
+    <div class="row justify-content-center">
       <div class="col-md-6 col-sm-12">
          <h2 class="pt-80 text-dark fw-bold">About Us</h1>
            <div class="bb"></div>
@@ -79,13 +80,15 @@ include_once 'header.php';
       </div>
     </div>
   </div>
+  </div>
 </section>
 <!-- End About -->
 
 <!-- Start Our Services -->
 <section class="area-bg">
   <div class="container">
-    <div class="row pb-80">
+  <div class="d-flex flex-wrap justify-content-center">
+    <div class="row pb-80 justify-content-center">
       <div class="col-12 text-center">
       <h2 class="sec-title">Our Services </h2>
       <div><span class="bb"></span></div>
@@ -106,7 +109,7 @@ include_once 'header.php';
       <div class="col-md-4 col-sm-6 col-12 text-center pt-80 p-3">
        <div class="border rounded-3">
         <img src="img/algolia-brands.svg" class="w-25 pt-5" alt="">
-        <h5 class="py-2 sec-title2">Designs & interfaces</h5>
+        <h5 class="py-2 sec-title2">Faster More Then Speed</h5>
         <p class="p-4 text-secondary">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
         <button class="btn1 btn-secondery py-4 bg-light" >Read More</button>
         </div>
@@ -115,7 +118,7 @@ include_once 'header.php';
       <div class="col-md-4 col-sm-6 col-12 text-center pt-80 p-3">
        <div class="border rounded-3">
         <img src="img/air-freshener-solid.svg" class="w-25 pt-5" alt="">
-        <h5 class="py-2 sec-title2">Designs & interfaces</h5>
+        <h5 class="py-2 sec-title2">Highly customizable</h5>
         <p class="p-4 text-secondary">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
         <button class="btn1 btn-secondery pt-4 py-4 bg-light" >Read More</button>
         </div>
@@ -124,7 +127,7 @@ include_once 'header.php';
       <div class="col-md-4 col-sm-6 col-12 text-center pt-80 p-3">
        <div class="border rounded-3">
         <img src="img/ambulance-solid.svg" class="w-25 pt-5" alt="">
-        <h5 class="py-2 sec-title2">Designs & interfaces</h5>
+        <h5 class="py-2 sec-title2">Official Support</h5>
         <p class="p-4 text-secondary">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
         <button class="btn1 btn-secondery py-4 bg-light" >Read More</button>
         </div>
@@ -133,7 +136,7 @@ include_once 'header.php';
       <div class="col-md-4 col-sm-6 col-12 text-center pt-80 p-3">
        <div class="border rounded-3">
         <img src="img/american-sign-language-interpreting-solid.svg" class="w-25 pt-5" alt="">
-        <h5 class="py-2 sec-title2">Designs & interfaces</h5>
+        <h5 class="py-2 sec-title2">Responsive design</h5>
         <p class="p-4 text-secondary">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
         <button class="btn1 btn-secondery py-4 bg-light" >Read More</button>
         </div>
@@ -142,13 +145,14 @@ include_once 'header.php';
       <div class="col-md-4 col-sm-6 col-12 text-center pt-80 p-3">
        <div class="border rounded-3">
         <img src="img/address-card-solid.svg" class="w-25 pt-5" alt="">
-        <h5 class="py-2 sec-title2">Designs & interfaces</h5>
+        <h5 class="py-2 sec-title2">Themes & plugins</h5>
         <p class="p-4 text-secondary">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
         <button class="btn1 btn-secondery pt-4 py-4 bg-light" >Read More</button>
         </div>
       </div>
     </div>
     </div>
+  </div>
   </div>
 </section>
 <!-- End Our Services -->
@@ -158,25 +162,25 @@ include_once 'header.php';
   <div class="container">
     <div class="row text-center pt-80 pb-80">
       <div class="col-md-3 col-sm-6 col-12">
-      <i class="bi bi-people-fill fs-5 text-primary fs-1"></i>
+      <i class="bi bi-people-fill text-primary fs-1"></i>
       <h2 class="text-light">5780</h2>
       <h4 class="text-light">Happy Customers</h4>
       </div>
 
       <div class="col-md-3 col-sm-6 col-12">
-      <i class="bi bi-hand-thumbs-up fs-5 text-primary fs-1"></i>
+      <i class="bi bi-hand-thumbs-up text-primary fs-1"></i>
       <h2 class="text-light">4920</h2>
       <h4 class="text-light">Project Complete</h4>
       </div>
 
       <div class="col-md-3 col-sm-6 col-12">
-      <i class="bi bi-buildings fs-5 text-primary fs-1"></i>
+      <i class="bi bi-buildings text-primary fs-1"></i>
       <h2 class="text-light">1760 </h2>
       <h4 class="text-light">World Wide Branch</h4>
       </div>
 
       <div class="col-md-3 col-sm-6 col-12">
-      <i class="bi bi-printer fs-5 text-primary fs-1"></i>
+      <i class="bi bi-printer text-primary fs-1"></i>
       <h2 class="text-light">2738</h2>
       <h4 class="text-light">Digital Instrument</h4>
       </div>
@@ -188,15 +192,14 @@ include_once 'header.php';
 <!--Start Project -->
 <section class="bg-light">
   <div class="container">
-    <div class="row pb-80">
       <div class="col-12 text-center">
-      <h2 class="sec-title">Our Services</h2>
+      <h2 class="sec-title">Recent Project</h2>
       <div><span class="bb"></span></div>
       <p class="py-5 text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in<br>
        some form,words which don't look even slightly believable.</p>
       </div>
-
-    <div class="row ">
+  <div class="d-flex flex-wrap justify-content-center">
+    <div class="row pb-80 justify-content-center">
       <div class="col-md-4 col-sm-6 col-12 text-center pt-80 p-3 overly">
        <div class="border rounded-3">
         <img src="img/1.jpg" class="image" alt="">
@@ -270,8 +273,8 @@ include_once 'header.php';
       </div>
 
     </div>
-
-    </div>
+  </div>
+    </div> 
   </div>
 </section>
 <!-- End Project -->
@@ -331,7 +334,8 @@ include_once 'header.php';
 <!--Start Our Team -->
 <section class="area-bg">
   <div class="container">
-    <div class="row pb-80">
+    <div class="d-flex flex-wrap justify-content-center">
+    <div class="row pb-80 justify-content-center">
       <div class="col-12 text-center">
       <h2 class="sec-title">Our Team </h2>
       <div class="">
@@ -381,12 +385,10 @@ include_once 'header.php';
             </div>
         </div>
       </div>
-      
-     
     </div>
-
-    </div>
-  </div>
+   </div>
+ </div>
+</div>
 </section>
 
 <!-- Watch Vedio -->
@@ -394,7 +396,7 @@ include_once 'header.php';
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-12 text-center text-light pb-80">
-       <h2 class="pt-80 pb-5">Developing first class solutions<br>for our clients.</h2>
+       <h2 class="pt-80 pb-sm-5">Developing first class solutions<br>for our clients.</h2>
        <a href="https://www.youtube.com/watch?v=uxZR17y9xzQ&ab_channel=JamunaTV" target="_blank"><button class="btn btn-primary rounded-pill">WATCH VIDEO</button></a>
       </div>
     </div>
@@ -405,7 +407,8 @@ include_once 'header.php';
 <!--Start Latest Blog -->
 <section class="area-bg">
   <div class="container">
-    <div class="row pb-80">
+    <div class="d-flex flex-wrap justify-content-center">
+    <div class="row pb-80 justify-content-center">
       <div class="col-12 text-center">
       <h2 class="sec-title">Latest Blog </h2>
       <div class="">
@@ -450,13 +453,15 @@ include_once 'header.php';
     </div>
   </div>
 </div>
-
+    </div>
     </div>
   </div>
 </section>
 
 <!-- Start Logo SLider Section -->
 <section class="pt-80 pb-80">
+  <div class="container  d-flex flex-wrap justify-content-center">
+  <div class="justify-content-center">
 <div id="myCarousel1" class="carousel slide container" data-bs-ride="carousel">
     <div class="carousel-inner w-100">
         <div class="carousel-item ww active">
@@ -481,7 +486,7 @@ include_once 'header.php';
             </div>
         </div>
         <div class="carousel-item ww">
-            <div class="col-md-2">
+            <div class="col-md-2 col-6">
                 <div class="card card-body">
                     <img class="img-fluid" src="img/client-2.png">
                 </div>
@@ -525,9 +530,9 @@ include_once 'header.php';
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
+</div>
+</div>
 </section>
-<!-- End Logo Slider -->
 
 <!-- Footer Link -->
 <?php 

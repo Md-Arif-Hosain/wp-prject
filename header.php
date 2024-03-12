@@ -59,11 +59,11 @@
           <a class="nav-link active" aria-current="page" href="about.php">About</a>
         </li>
         <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          <a class="nav-link active" aria-current="page" href="blog.php">Blog</a>
         </li>
         
         <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Services</a>
+          <a class="nav-link active" aria-current="page" href="services.php">Services</a>
         </li>
 
         <li class="nav-item dropdown fw-bold">
@@ -71,14 +71,14 @@
             Pages
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Portfolio</a></li>
-            <li><a class="dropdown-item" href="#">404</a></li>
-            <li><a class="dropdown-item" href="#">Contact</a></li>
+            <li><a class="dropdown-item" href="404.php">404</a></li>
+            <li><a class="dropdown-item" href="https://arifcv.netlify.app/">Portfolio</a></li>
+            <li><a class="dropdown-item" href="contact.php">Contact</a></li>
           </ul>
         </li>
 
         <li class="nav-item fw-bold">
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
         </li>
 
       </ul>
