@@ -29,7 +29,7 @@
      <span class="pb-60 pt-60"> <hr></span>
    
      <div class="row pb-60">
-      <div class="col-sm-4 col-sm-6">
+      <div class="col-md-4 col-sm-6 col-12">
         <h3 class="text-light fw-bold fs-3 pb-3">TRADE<span class="text-primary fs-1"> .</sapn></h3>
         <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
          <h3 class="pt-3 pb-3 text-light">Follow Us</h3>

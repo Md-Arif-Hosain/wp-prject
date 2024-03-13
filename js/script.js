@@ -24,3 +24,13 @@ $('.carousel .ww').each(function () {
   
   for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); }
    next.children(':first-child').clone().appendTo($(this)); } });
+
+
+  //  Popup Form
+// function openForm() {
+//   document.getElementById("myForm").style.display = "block";
+// }
+
+// function closeForm() {
+//   document.getElementById("myForm").style.display = "none";
+// }

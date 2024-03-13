@@ -32,7 +32,7 @@
                   <div class="d-flex gap-2 text-light flex-wrap">
                       <p class="pt-2 text-light">Follow Us:</p>
                       <a href="https://www.facebook.com/" class="pt-2 text-light"><i class="bi bi-facebook"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-twitter"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-linkedin"></i></a></p>
-                      <button class="btn btn-primary ps-3">Get A Quat</button>
+                      <button class="btn btn-primary ps-3" onclick="openForm()"><a href="popupform.php" class="link">Get A Quat </a></button>
                   </div>      
             </div>
         </div>
@@ -73,7 +73,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="404.php">404</a></li>
             <li><a class="dropdown-item" href="https://arifcv.netlify.app/">Portfolio</a></li>
-            <li><a class="dropdown-item" href="contact.php">Contact</a></li>
+            <li><a class="dropdown-item" href="contactus.php">Contact</a></li>
           </ul>
         </li>
 
