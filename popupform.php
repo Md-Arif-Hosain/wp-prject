@@ -1,3 +1,24 @@
+<style>
+  /* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	position: fixed;
+	top:100px;
+	right: 20px;
+	left: 260px;
+	/* border: 3px solid #f1f1f1; */
+	z-index: 99;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+	max-width: 800px;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+  }
+  
+</style>
 <!-- Header Link -->
 <?php 
 include_once 'header.php';
