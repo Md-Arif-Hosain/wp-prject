@@ -188,7 +188,7 @@ include_once 'header.php';
   </div>
 </section>
 <!-- End Counter -->
-
+<div class="clearfix"></div>
 <!--Start Project -->
 <section class="bg-light">
   <div class="container">
@@ -539,3 +539,4 @@ include_once 'header.php';
 include_once 'footer.php';
 
 ?>
+

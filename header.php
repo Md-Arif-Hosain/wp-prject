@@ -32,7 +32,7 @@
                   <div class="d-flex gap-2 text-light flex-wrap">
                       <p class="pt-2 text-light">Follow Us:</p>
                       <a href="https://www.facebook.com/" class="pt-2 text-light"><i class="bi bi-facebook"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-twitter"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-linkedin"></i></a></p>
-                      <button class="btn btn-primary ps-3" onclick="openForm()"><a href="popupform.php" class="link">Get A Quat </a></button>
+                      <button class="btn btn-primary ps-3 open-button"  onclick="openForm()"><a href="popupform.php">Get A Quat </a></button>
                   </div>      
             </div>
         </div>

@@ -174,6 +174,20 @@ a.nav-link:hover {
     margin: auto;
 }
 
+/* Header Sect */
+.dropdown-menu {
+    border-radius: 0px;
+    top: 53px !important;
+    border-top: 2px solid #ff5e14;
+}
+
+a.dropdown-item:hover {
+	color: #FF5E14 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(14 14 14 / 94%);
+}
+
 /* Slider Options */
 .mainslide .carousel-caption {
     position: absolute;
@@ -195,6 +209,17 @@ a.nav-link:hover {
     background: #000;
     opacity: .7;
 }
+.mainslide .carousel-caption{
+	animation-name: example;
+	animation-duration: 2s;  
+	animation-delay: .2s;
+	animation-fill-mode: both;
+}
+@keyframes example {
+	from {top: 0px;}
+	to {top: 250px;}
+  }
+
 
 /*Project*/
 .overly {
@@ -211,7 +236,7 @@ a.nav-link:hover {
   bottom: 0;
   left: 0;
   right: 0;
-/*  background-color: #008CBA;*/
+  background: #222222;
   overflow: hidden;
   opacity: 1;
   width: 100%;
@@ -226,10 +251,9 @@ a.nav-link:hover {
 
 
 .overly:hover .middle {
-	background: #222222;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+ transform: scale(.8);
 }
 .text {
   color: white;
@@ -247,15 +271,19 @@ a.nav-link:hover {
 
 
 /* End Counter */
-.counter {
-    background-image: url('img/bg1.jpg');
-    background-repeat: no-repeat;
+.counter{
+    content: "";
     width: 100%;
+    background-image: url('img/bg1.jpg');
+	background-size: cover;
     background-attachment: fixed;
-	/* background-color: #000; */
-	/* background-image: linear-gradient(gray, rgb(15, 14, 14)); */
-	opacity: 1;
 }
+.counter::before{
+    opacity: .7;
+	background-color: #000;
+}
+
+
 /* Our Team */
 *{box-sizing: border-box;}
 .middle1{

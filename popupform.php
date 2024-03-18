@@ -1,12 +1,23 @@
 <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+ 
+}
+
   /* The popup form - hidden by default */
-.form-popup {
+  .form-popup {
 	display: none;
 	position: fixed;
 	top:100px;
 	right: 20px;
 	left: 260px;
-	/* border: 3px solid #f1f1f1; */
 	z-index: 99;
   }
   
@@ -17,7 +28,17 @@
 	background-color: white;
 	text-align: center;
   }
-  
+
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
 </style>
 <!-- Header Link -->
 <?php 
@@ -25,7 +46,6 @@ include_once 'header.php';
 ?>
 
 <!-- End Page -->
-
 <!-- Contact Form -->
 <section class="popup pt-60 d-flex justify-content-center">
   <div class="container justify-content-center">
@@ -63,18 +83,6 @@ include_once 'header.php';
 </section>
 
 
-
 <!-- Footer Link -->
 <?php 
 include_once 'footer.php';
-
-?>
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
