@@ -1,5 +1,3 @@
-
-
 <!-- Start Footer -->
 <section class="bg-dark footer" style="background-image: url('img/footer_map.png'); background-repeat: no-repeat; background-size: cover;">
   <div class="container">
@@ -36,9 +34,9 @@
         <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
          <h3 class="pt-3 pb-3 text-light">Follow Us</h3>
          <div class="">
-         <a href="https://www.facebook.com/" class="pt-2 text-primary pe-2"><i class="bi bi-facebook fs-2 bg-light rounded-circle"></i></a>
-         <a href="http://"  class="pt-2 text-secondary pe-2"><i class="bi bi-pinterest fs-2 bg-light rounded-circle"></i></a>
-         <a href="http://"  class="pt-2 text-danger"><i class="bi bi-telegram fs-2 bg-light rounded-circle"></i></a></p>
+         <a href="https://www.facebook.com/profile.php?id=61556682405632" class="pt-2 text-light pe-2"><i class="bi bi-facebook fs-2"></i></a>
+         <a href="https://www.pinterest.com/"  class="pt-2 text-light pe-2"><i class="bi bi-pinterest fs-2"></i></a>
+         <a href="https://telegram.org/"  class="pt-2 text-light"><i class="bi bi-telegram fs-2"></i></a></p>
          </div>
       </div>
 
@@ -92,7 +90,7 @@
 </section>
 
 <!-- Contact Form -->
-<section class="popup pt-60 d-flex justify-content-center">
+<section class="popup d-flex justify-content-center">
   <div class="container justify-content-center">
     <div class="row">
     <div class="form-popup" id="myForm">
@@ -137,14 +135,3 @@
   <!-- Footer Link End -->
 </body>
 </html>
-
-<!-- Java -->
-<!-- <script>
-  function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-} -->
-</script>

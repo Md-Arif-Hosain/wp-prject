@@ -24,15 +24,15 @@
     <div class="top-header">
         <div class="container">
             <div class="d-flex justify-content-between flex-md-row flex-column">
-                  <div class="d-flex gap-2 text-light pt-2 flex-wrap">
+                  <div class="d-flex gap-2 text-light pt- flex-wrap align-items-center">
                     <p class="text-light"><i class="bi bi-geo-alt-fill text-primary"></i> 1375 Ash Avenue</p>
                     <p class="text-light"><i class="bi bi-envelope-at-fill text-primary"></i> info@example.com</p>
                     <p class="text-light"><i class="bi bi-telephone-fill text-primary"></i> 314-326-2990</p>
                   </div> 
 
-                  <div class="d-flex gap-2 text-light flex-wrap">
-                      <p class="pt-2 text-light">Follow Us:</p>
-                      <a href="https://www.facebook.com/" class="pt-2 text-light"><i class="bi bi-facebook"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-twitter"></i></a><a href="http://"  class="pt-2 text-light"><i class="bi bi-linkedin"></i></a></p>
+                  <div class="d-flex gap-2 text-light flex-wrap align-items-center">
+                      <p class="text-light">Follow Us:</p>
+                      <a href="https://www.facebook.com/" class="text-light"><i class="bi bi-facebook"></i></a><a href="http://"  class="text-light"><i class="bi bi-pinterest"></i></a><a href="http://"  class="text-light"><i class="bi bi-telegram"></i></a></p>
                       <button class="btn btn-primary ps-3 open-button"  onclick="openForm()">Get A Quat </button>
                   </div>      
             </div>
